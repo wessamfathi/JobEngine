@@ -34,6 +34,9 @@
     <ClInclude Include="Classes\FMasterThread.h">
       <Filter>Classes</Filter>
     </ClInclude>
+    <ClInclude Include="Classes\JobEngineIncludes.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Private\FWorkerThread.cpp">
@@ -52,6 +55,9 @@
       <Filter>Private</Filter>
     </ClCompile>
     <ClCompile Include="Private\FMasterThread.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Private\LaunchEngineLoop.cpp">
       <Filter>Private</Filter>
     </ClCompile>
   </ItemGroup>

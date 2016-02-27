@@ -153,6 +153,7 @@
     <ClInclude Include="Classes\FMasterThread.h" />
     <ClInclude Include="Classes\FWorkerThread.h" />
     <ClInclude Include="Classes\JobEngineClasses.h" />
+    <ClInclude Include="Classes\JobEngineIncludes.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Private\FEvent.cpp" />
@@ -161,6 +162,7 @@
     <ClCompile Include="Private\FJobQueue.cpp" />
     <ClCompile Include="Private\FMasterThread.cpp" />
     <ClCompile Include="Private\FWorkerThread.cpp" />
+    <ClCompile Include="Private\LaunchEngineLoop.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
